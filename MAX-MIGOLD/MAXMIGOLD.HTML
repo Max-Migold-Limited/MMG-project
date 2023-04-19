@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="Maxmigold.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>FM Helpdesk</title>
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="top">
+                <div class="logo">
+                    <p class="Helpdesk"><span class="FM">FM</span>HELPDESK</p>
+                </div>
+                <i class="fa-solid fa-bars" id="btn"></i>
+            </div>
+        
+        <div class="user">
+            <img src="banner.png" alt="me" class="user-img">
+            <div>
+                <p class="bold">Client B.</p>
+                <p>Admin</p>
+            </div>
+        </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                        <span class="nav-item">Dashboard</span>
+                    </a>
+                    <span class="tooltip">Dashboard</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-message"></i>
+                        <span class="nav-item">Messages</span>
+                    </a>
+                    <span class="tooltip">Messages</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-wrench"></i>
+                        <span class="nav-item">Service Request</span>
+                    </a>
+                    <span class="tooltip">Service Request</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-school"></i>
+                        <span class="nav-item">Work Order</span>
+                    </a>
+                    <span class="tooltip">Work Order</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <span class="nav-item">Facility Location</span>
+                    </a>
+                    <span class="tooltip">Facility Location</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-receipt"></i>
+                        <span class="nav-item">Asset Register</span>
+                    </a>
+                    <span class="tooltip">Asset Register</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-clipboard"></i>
+                        <span class="nav-item">Inventory</span>
+                    </a>
+                    <span class="tooltip">Inventory</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span class="nav-item">Reports</span>
+                    </a>
+                    <span class="tooltip">Reports</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="nav-item">Profile</span>
+                    </a>
+                    <span class="tooltip">Profile</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="nav-item">Setting</span>
+                    </a>
+                    <span class="tooltip">Setting</span>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="container">
+                <h1>FM HELPDESK</h1>
+                
+                
+            </div>
+            <div class="container-1"></div>
+            <div class="container-2"></div>
+            <div class="container-3"></div>
+        </div>
+    </body>
+    <script>
+        let btn = document.querySelector('#btn')
+        let sidebar = document.querySelector('.sidebar')
+
+        btn.onclick = function(){
+            sidebar.classList.toggle('active')
+        };
+    </script>
+</html>
